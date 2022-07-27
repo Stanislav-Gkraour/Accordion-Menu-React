@@ -1,0 +1,51 @@
+body{
+    background: rgb(49, 49,49,0.8);
+}
+.accordion{
+    max-width: 400px;
+    height: auto; 
+    border: 1px solid rgb(0, 0,0 , 0.2);
+    margin: 100px auto;
+    border-radius: 5px;
+}
+.accordion-visible{
+    background: rgb(88, 169, 204);
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 15px;
+}
+
+.chevron-down {
+    width: 25px;
+}
+.chevron-up {
+    width: 38px;
+}
+
+
+.accordion-visible h2 {
+    font-size: 25px;
+}
+
+.toggle-isActive {
+    font-size: 18px;
+    opacity: 0;
+    background: rgb(245, 245, 245);
+    transition: opacity 0.5s ease-in-out, height 0.5s 0.5s ease-in-out;
+}
+
+.animated{
+    opacity: 1 ;
+    transition: height 0.5s ease-in-out, opacity 0.5s 0.5s ease-in-out;
+}
+
+.toggle-isActive p{
+    margin: 0;
+    padding: 22px 15px;
+    pointer-events: none;
+    line-height: 2;
+}
+
