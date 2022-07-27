@@ -1,11 +1,18 @@
 body{
-    background: rgb(49, 49,49,0.8);
+    background: rgba(142, 194, 223, 0.8);
+}
+
+h1{
+    text-align: center;
+    color: rgb(245, 245, 245);
+    font-size: 60px;
+    margin-bottom: 0px;
 }
 .accordion{
     max-width: 400px;
     height: auto; 
     border: 1px solid rgb(0, 0,0 , 0.2);
-    margin: 100px auto;
+    margin: 0px auto;
     border-radius: 5px;
 }
 .accordion-visible{
